@@ -1,0 +1,48 @@
+/* Reset simples */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  background: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #ff5722;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
