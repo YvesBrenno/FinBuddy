@@ -52,7 +52,7 @@ Landing page fictícia para um aplicativo de finanças pessoais. Este projeto si
 3. Instale a extensão **Live Server**
 4. Clique com o botão direito em `index.html` → **Open with Live Server**
 5. Acesse `http://localhost:5500` (ou porta equivalente)
-6. No [Google Tag Manager](https://tagmanager.google.com/), clique em **Preview** e cole a URL local
+6. No [Google Tag Manager](https://tagmanager.google.com/), no canto superior direito, clique em **Visualizar** e cole a URL local
 7. Clique em “Baixar App” e veja o evento `download_click` sendo registrado
 
 ---
